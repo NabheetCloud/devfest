@@ -1,0 +1,27 @@
+{
+  "name": "devfest",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "devfest": "src/index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "chalk": "^5.3.0",
+    "chalk-table": "^1.0.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.6.0",
+    "inquirer": "^9.2.11",
+    "os": "^0.1.2",
+    "yargs": "13.2"
+  }
+}
